@@ -5,12 +5,14 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1146px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -39,9 +41,10 @@
     font-weight: 700;
     
 }
-.header-items {
+.header-items {    
     background: url("../images/header-bg.png") right center/cover;
-    height: 865px;    
+    max-height: 865px;
+    height: 100%;    
     margin: 0 50px;        
     border-radius: 30px;    
 }
@@ -69,12 +72,13 @@
     line-height: 130px;
     padding: 0 0 70px 177px;
 }
-.hlink { 
-    padding: 0 0 138px 177px;   
-    display: flex;
-    gap: 30px;    
+.hlink {
+    display: flex;     
+    padding: 0 0 138px 177px;        
+    gap: 30px;       
 }
-.header-link {
+
+.header-link {           
     color: #000000;
     font-weight: 700;
     font-size: 18px;
@@ -84,6 +88,7 @@
     padding: 18px 50px 18px 50px;
     transition: 0.5s;
 }
+
 .header-link:hover {
     background: #000000;
     color: #FFFFFF;
@@ -106,13 +111,14 @@
 }
 .main-items-one {
     display: flex;
-    width: 1406px;
-    max-width: 100%;
+    max-width: 1378px;
+    width: 100%;
     margin: 130px auto 0;
     align-items: center;
 }
 .items-one-info {
-    width: 548px;
+    max-width: 548px;
+    width: 100%;
 }
 .main-info {
     color: #000000;
@@ -122,6 +128,7 @@
     line-height: 160%;
     margin-bottom: 50px;    
 }
+
 .main-link {
     display: inline-block;
     background: #E68311;
@@ -136,11 +143,17 @@
     border: 1px solid #E68311;
 }
 .main-items-two {
-    display: flex;
-    width: 1378px;
-    max-width: 100%;
+    display: flex;    
+    max-width: 1378px;
+    width: 100%;
     margin: 100px auto;
     align-items: center;
+}
+
+.item-two-info {
+    max-width: 548px;
+    width: 100%;
+    padding: 0 15px 0 15px;
 }
 .main-bottom-left {
     display: flex;
@@ -177,7 +190,8 @@
     line-height: 160%;
     color: #000000;
     margin-bottom: 30px;
-    width: 302px;
+    max-width: 302px;
+    width: 100%;
 }
 .main-bottom-link {
     display: inline-block;
@@ -221,8 +235,7 @@
 .main-bottom-items {
     display: flex;
     justify-content: space-between;
-    column-gap: 30px;
-    height: 305px;
+    column-gap: 30px;    
     margin-top: 50px;
 }
 .main-bottom-title {

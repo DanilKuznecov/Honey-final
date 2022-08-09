@@ -1,0 +1,142 @@
+@media(max-width: 1400px) {
+    .header-textone {
+        padding-left: 30px;
+    }
+
+    .header-texttwo {
+        padding-left: 128px;
+    }
+
+    .header-textthree {
+        padding-left: 30px;
+    }
+
+    .hlink {
+        padding-left: 30px;
+    }
+
+    .nav-logo {
+        padding-left: 70px;
+    }   
+
+}
+
+@media(max-width: 1200px) {
+    .main-items-one, img {
+        max-width: 100%;
+    }    
+    
+    .hlink {
+        padding-bottom: 30px;
+    }
+
+    .main-items-two, .main-items-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .main-content-title {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .main-bottom-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    
+    .items-one-info, .item-two-info {
+        text-align: center;
+    }
+    
+}
+
+
+@media(max-width: 992px) {
+
+    .main-title {
+        text-align: center;
+    }
+    
+    .container-img {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 20px;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    
+
+    .container-foot {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 20px;
+    }     
+
+    .link-box {
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+   
+    .nav-logo {
+        padding: 15px;
+    }   
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }    
+
+    .hlink {
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+        
+    .header-textone, .header-texttwo, .header-textthree {
+        font-size: 70px;        
+    }
+
+    .items-one-info {
+        padding: 0 15px 0 15px;
+    }
+
+    .main-bottom-left, .main-bottom-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }   
+}
+
+@media(max-width: 375px) {
+    .header-textone, .header-texttwo, .header-textthree {
+        font-size: 40px;        
+    }
+
+    .link-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .hlink {
+        padding-left: 0;
+    }
+
+}
+
